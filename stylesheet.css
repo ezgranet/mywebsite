@@ -39,12 +39,12 @@
 
 @font-face {
     font-family: 'Sabon LT Std';
-    src: url('sbn/SabonLTStd-Roman.eot');
-    src: url('sbn/SabonLTStd-Roman.eot?#iefix') format('embedded-opentype'),
-        url('sbn/SabonLTStd-Roman.woff2') format('woff2'),
-        url('sbn/SabonLTStd-Roman.woff') format('woff'),
-        url('sbn/SabonLTStd-Roman.ttf') format('truetype'),
-        url('sbn/SabonLTStd-Roman.svg#SabonLTStd-Roman') format('svg');
+    src: url('https://rawcdn.githack.com/ezgranet/mywebsite/b021ca476e7705dc16459715feaca78c61f9ea0f/sbn/SabonLTStd-BoldItalic.eot');
+    src: url('https://rawcdn.githack.com/ezgranet/mywebsite/b021ca476e7705dc16459715feaca78c61f9ea0f/sbn/SabonLTStd-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('https://rawcdn.githack.com/ezgranet/mywebsite/b021ca476e7705dc16459715feaca78c61f9ea0f/sbn/SabonLTStd-Roman.woff2') format('woff2'),
+        url('https://rawcdn.githack.com/ezgranet/mywebsite/b021ca476e7705dc16459715feaca78c61f9ea0f/sbn/SabonLTStd-Roman.woff') format('woff'),
+        url('https://rawcdn.githack.com/ezgranet/mywebsite/b021ca476e7705dc16459715feaca78c61f9ea0f/sbn/SabonLTStd-Roman.ttf') format('truetype'),
+        url('https://rawcdn.githack.com/ezgranet/mywebsite/b021ca476e7705dc16459715feaca78c61f9ea0f/sbn/SabonLTStd-Roman.svg') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
