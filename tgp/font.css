@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'MyTGP;
+  font-family: 'TeXGyrePagella';
   src: url('texgyrepagella-bold.eot'); /* IE9 Compat Modes */
   src: url('texgyrepagella-bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('texgyrepagella-bold.woff') format('woff'), /* Modern Browsers */
@@ -11,7 +11,7 @@
 }
 
 @font-face {
-  font-family: 'MyTGP;
+  font-family: 'TeXGyrePagella';
   src: url('texgyrepagella-bolditalic.eot'); /* IE9 Compat Modes */
   src: url('texgyrepagella-bolditalic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('texgyrepagella-bolditalic.woff') format('woff'), /* Modern Browsers */
@@ -23,7 +23,7 @@
 }
 
 @font-face {
-  font-family: 'MyTGP;
+  font-family: 'TeXGyrePagella';
   src: url('texgyrepagella-italic.eot'); /* IE9 Compat Modes */
   src: url('texgyrepagella-italic.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('texgyrepagella-italic.woff') format('woff'), /* Modern Browsers */
@@ -35,7 +35,7 @@
 }
 
 @font-face {
-  font-family: 'MyTGP;
+  font-family: 'TeXGyrePagella';
   src: url('texgyrepagella-regular.eot'); /* IE9 Compat Modes */
   src: url('texgyrepagella-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('texgyrepagella-regular.woff') format('woff'), /* Modern Browsers */
