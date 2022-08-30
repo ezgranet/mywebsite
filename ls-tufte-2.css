@@ -117,74 +117,8 @@ li:not(:first-child) {
     margin-top: 0.25rem;
 }
 
-figure {
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    max-width: 55%;
-    -webkit-margin-start: 0;
-    -webkit-margin-end: 0;
-    margin: 0 0 3em 0;
-}
 
-figcaption {
-    float: right;
-    clear: right;
-    margin-top: 0;
-    margin-bottom: 0;
-    font-size: 1.1rem;
-    line-height: 1.6;
-    vertical-align: baseline;
-    position: relative;
-    max-width: 40%;
-}
 
-figure.fullwidth figcaption {
-}
-
-/* Links: replicate underline that clears descenders */
-a:link,
-a:visited {
-    color: inherit;
-}
-
-.no-tufte-underline:link {
-    background: unset;
-    text-shadow: unset;
-}
-
-a:link, .tufte-underline, .hover-tufte-underline:hover {
-    text-decoration: none;
-    background: -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(#fffff8, #fffff8), -webkit-linear-gradient(currentColor, currentColor);
-    background: linear-gradient(#fffff8, #fffff8), linear-gradient(#fffff8, #fffff8), linear-gradient(currentColor, currentColor);
-    -webkit-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
-    -moz-background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
-    background-size: 0.05em 1px, 0.05em 1px, 1px 1px;
-    background-repeat: no-repeat, no-repeat, repeat-x;
-    text-shadow: 0.03em 0 #fffff8, -0.03em 0 #fffff8, 0 0.03em #fffff8, 0 -0.03em #fffff8, 0.06em 0 #fffff8, -0.06em 0 #fffff8, 0.09em 0 #fffff8, -0.09em 0 #fffff8, 0.12em 0 #fffff8, -0.12em 0 #fffff8, 0.15em 0 #fffff8, -0.15em 0 #fffff8;
-    background-position: 0% 93%, 100% 93%, 0% 93%;
-}
-
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
-    a:link, .tufte-underline, .hover-tufte-underline:hover {
-        background-position-y: 87%, 87%, 87%;
-    }
-}
-
-/* Adds dark mode */
-@media (prefers-color-scheme: dark) {
-    a:link, .tufte-underline, .hover-tufte-underline:hover {
-        text-shadow: 0.03em 0 #151515, -0.03em 0 #151515, 0 0.03em #151515, 0 -0.03em #151515, 0.06em 0 #151515, -0.06em 0 #151515, 0.09em 0 #151515, -0.09em 0 #151515, 0.12em 0 #151515, -0.12em 0 #151515, 0.15em 0 #151515, -0.15em 0 #151515;
-    }
-}
-
-a:link::selection,
-a:link::-moz-selection {
-    text-shadow: 0.03em 0 #b4d5fe, -0.03em 0 #b4d5fe, 0 0.03em #b4d5fe, 0 -0.03em #b4d5fe, 0.06em 0 #b4d5fe, -0.06em 0 #b4d5fe, 0.09em 0 #b4d5fe, -0.09em 0 #b4d5fe, 0.12em 0 #b4d5fe, -0.12em 0 #b4d5fe, 0.15em 0 #b4d5fe, -0.15em 0 #b4d5fe;
-    background: #b4d5fe;
-}
 
 /* Sidenotes, margin notes, figures, captions */
 img {
@@ -243,26 +177,11 @@ table.fullwidth {
 
 div.table-wrapper {
     overflow-x: auto;
-    font-family: "Trebuchet MS", "Gill Sans", "Gill Sans MT", sans-serif;
-}
-
-.sans {
 }
 
 code, pre > code {
 }
 
-.sans > code {
-}
-
-h1 > code,
-h2 > code,
-h3 > code {
-}
-
-.marginnote > code,
-.sidenote > code {
-}
 
 pre > code {
     font-size: 0.9rem;
@@ -315,34 +234,7 @@ label.margin-toggle:not(.sidenote-number) {
 }
 
 @media () {
-    body {
-    }
-
-    hr,
-    section > p,
-    section > footer,
-    section > table {
-    }
-
-    pre > code {
-        width: 97%;
-    }
-
-    section > dl,
-    section > ol,
-    section > ul {
-        width: 90%;
-    }
-
-    figure {
-        max-width: 90%;
-    }
-
-    figcaption,
-    figure.fullwidth figcaption {
-        margin-right: 0%;
-        max-width: none;
-    }
+ 
 
     blockquote {
         margin-left: 1.5em;
@@ -377,11 +269,6 @@ label.margin-toggle:not(.sidenote-number) {
 
     label {
         cursor: pointer;
-    }
-
-    div.table-wrapper,
-    table {
-        width: 85%;
     }
 
     img {
