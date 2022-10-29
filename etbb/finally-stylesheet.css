@@ -59,9 +59,9 @@
 
 @font-face {
     font-family: 'fbb';
-    src: url('fbb-regular-webfont.woff2') format('woff2'),
-    url('fbb-Regular.otf') format('opentype'),
-         url('fbb-regular-webfont.woff') format('woff');
+    src: url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-regular-webfont.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-Regular.otf') format('opentype'),
+         url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -72,9 +72,9 @@
 
 @font-face {
     font-family: 'fbb';
-    src: url('fbb-italic-webfont.woff2') format('woff2'),
-    url('fbb-Italic.otf') format('opentype'),
-         url('fbb-italic-webfont.woff') format('woff');
+    src: url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-italic-webfont.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-Italic.otf') format('opentype'),
+         url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 
@@ -85,9 +85,9 @@
 
 @font-face {
     font-family: 'fbb';
-    src: url('fbb-bolditalic-webfont.woff2') format('woff2'),
-        url('fbb-BoldItalic.otf') format('opentype'),
-         url('fbb-bolditalic-webfont.woff') format('woff');
+    src: url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-bolditalic-webfont.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-BoldItalic.otf') format('opentype'),
+         url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-bolditalic-webfont.woff') format('woff');
     font-weight: bold;
     font-style: italic;
 
@@ -98,9 +98,9 @@
 
 @font-face {
     font-family: 'fbb';
-    src: url('fbb-bold-webfont.woff2') format('woff2'),
-    url('fbb-Bold.otf') format('opentype'),
-         url('fbb-bold-webfont.woff') format('woff');
+    src: url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-bold-webfont.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-Bold.otf') format('opentype'),
+         url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 
