@@ -5,8 +5,8 @@
 @font-face {
     font-family: etbb;
     src: url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/blob/master/etbb/etbb-regular_1-webfont.woff2') format('woff2'),
-    url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/blob/master/etbb/ETbb-Regular%20(1).otf') format('opentype'),
-         url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/blob/master/etbb/ETbb-Regular.otf') format('woff');
+    url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/blob/master/etbb/ETbb-Regular.otf') format('opentype'),
+         url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/blob/master/etbb/etbb-regular_1-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
