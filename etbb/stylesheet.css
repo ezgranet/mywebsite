@@ -3,7 +3,7 @@
 
 
 @font-face {
-    font-family: etbb;
+    font-family: 'ettb';
     src: url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/blob/master/etbb/etbb-regular_1-webfont.woff2') format('woff2'),
     url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/blob/master/etbb/ETbb-Regular.otf') format('opentype'),
          url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/blob/master/etbb/etbb-regular_1-webfont.woff') format('woff');
@@ -16,7 +16,7 @@
 
 
 @font-face {
-    font-family: etbb;
+    font-family: 'ettb';
     src: url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/blob/master/etbb/etbb-italic-webfont.woff2') format('woff2'),
          url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/blob/master/etbb/etbb-italic-webfont.woff') format('woff'),
         url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/blob/master/etbb/ETbb-Italic.otf') format('opentype');
@@ -30,7 +30,7 @@
 
 
 @font-face {
-    font-family: etbb;
+    font-family: 'ettb';
     src: url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/blob/master/etbb/etbb-bolditalic-webfont.woff2') format('woff2'),
     url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/blob/master/etbb/ETbb-BoldItalic.otf') format('opentype'),
          url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/blob/master/etbb/etbb-bolditalic-webfont.woff') format('woff');
@@ -43,7 +43,7 @@
 
 
 @font-face {
-    font-family: etbb;
+    font-family: 'ettb';
     src: url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/blob/master/etbb/etbb-bold-webfont.woff2') format('woff2'),
         url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/blob/master/etbb/ETbb-Bold.otf') format('opentype'),
          url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/blob/master/etbb/etbb-bold-webfont.woff') format('woff');
@@ -58,7 +58,7 @@
 
 
 @font-face {
-    font-family: 'fbbregular';
+    font-family: 'fbb';
     src: url('fbb-regular-webfont.woff2') format('woff2'),
     url('fbb-Regular.otf') format('opentype'),
          url('fbb-regular-webfont.woff') format('woff');
@@ -71,12 +71,12 @@
 
 
 @font-face {
-    font-family: 'fbbitalic';
+    font-family: 'fbb';
     src: url('fbb-italic-webfont.woff2') format('woff2'),
     url('fbb-Italic.otf') format('opentype'),
          url('fbb-italic-webfont.woff') format('woff');
     font-weight: normal;
-    font-style: normal;
+    font-style: italic;
 
 }
 
@@ -84,12 +84,12 @@
 
 
 @font-face {
-    font-family: 'fbbbold_italic';
+    font-family: 'fbb';
     src: url('fbb-bolditalic-webfont.woff2') format('woff2'),
         url('fbb-BoldItalic.otf') format('opentype'),
          url('fbb-bolditalic-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-weight: bold;
+    font-style: italic;
 
 }
 
@@ -97,11 +97,11 @@
 
 
 @font-face {
-    font-family: 'fbbbold';
+    font-family: 'fbb';
     src: url('fbb-bold-webfont.woff2') format('woff2'),
     url('fbb-Bold.otf') format('opentype'),
          url('fbb-bold-webfont.woff') format('woff');
-    font-weight: normal;
+    font-weight: bold;
     font-style: normal;
 
 }
