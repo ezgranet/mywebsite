@@ -3,10 +3,10 @@
 
 
 @font-face {
-    font-family: "ettb";
-    src: url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/etbb-regular_1-webfont.woff2") format("woff2"),
-    url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/ETbb-Regular.otf") format("opentype"),
-         url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/etbb-regular_1-webfont.woff") format("woff");
+    font-family: 'ettb';
+    src: url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/etbb-regular_1-webfont.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/ETbb-Regular.otf') format('opentype'),
+         url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/etbb-regular_1-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -16,10 +16,10 @@
 
 
 @font-face {
-    font-family: "ettb";
-    src: url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/etbb-italic-webfont.woff2") format("woff2"),
-         url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/etbb-italic-webfont.woff") format("woff"),
-        url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/ETbb-Italic.otf") format("opentype");
+    font-family: 'ettb';
+    src: url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/etbb-italic-webfont.woff2') format('woff2'),
+         url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/etbb-italic-webfont.woff') format('woff'),
+        url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/ETbb-Italic.otf') format('opentype');
 
     font-weight: normal;
     font-style: italic;
@@ -30,10 +30,10 @@
 
 
 @font-face {
-    font-family: "ettb";
-    src: url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/etbb-bolditalic-webfont.woff2") format("woff2"),
-    url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/ETbb-BoldItalic.otf") format("opentype"),
-         url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/etbb-bolditalic-webfont.woff") format("woff");
+    font-family: 'ettb';
+    src: url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/etbb-bolditalic-webfont.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/ETbb-BoldItalic.otf') format('opentype'),
+         url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/etbb-bolditalic-webfont.woff') format('woff');
     font-weight: bold;
     font-style: italic;
 
@@ -43,10 +43,10 @@
 
 
 @font-face {
-    font-family: "ettb";
-    src: url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/etbb-bold-webfont.woff2") format("woff2"),
-        url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/ETbb-Bold.otf") format("opentype"),
-         url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/etbb-bold-webfont.woff") format("woff");
+    font-family: 'ettb';
+    src: url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/etbb-bold-webfont.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/ETbb-Bold.otf') format('opentype'),
+         url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/etbb-bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 
@@ -58,10 +58,10 @@
 
 
 @font-face {
-    font-family: "fbb";
-    src: url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-regular-webfont.woff2") format("woff2"),
-    url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-Regular.otf") format("opentype"),
-         url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-regular-webfont.woff") format("woff");
+    font-family: 'fbb';
+    src: url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-regular-webfont.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-Regular.otf') format('opentype'),
+         url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -71,10 +71,10 @@
 
 
 @font-face {
-    font-family: "fbb";
-    src: url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-italic-webfont.woff2") format("woff2"),
-    url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-Italic.otf") format("opentype"),
-         url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-italic-webfont.woff") format("woff");
+    font-family: 'fbb';
+    src: url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-italic-webfont.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-Italic.otf') format('opentype'),
+         url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-italic-webfont.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 
@@ -84,10 +84,10 @@
 
 
 @font-face {
-    font-family: "fbb";
-    src: url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-bolditalic-webfont.woff2") format("woff2"),
-        url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-BoldItalic.otf") format("opentype"),
-         url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-bolditalic-webfont.woff") format("woff");
+    font-family: 'fbb';
+    src: url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-bolditalic-webfont.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-BoldItalic.otf') format('opentype'),
+         url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-bolditalic-webfont.woff') format('woff');
     font-weight: bold;
     font-style: italic;
 
@@ -97,10 +97,10 @@
 
 
 @font-face {
-    font-family: "fbb";
-    src: url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-bold-webfont.woff2") format("woff2"),
-    url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-Bold.otf") format("opentype"),
-         url("https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-bold-webfont.woff") format("woff");
+    font-family: 'fbb';
+    src: url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-bold-webfont.woff2') format('woff2'),
+    url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-Bold.otf') format('opentype'),
+         url('https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/etbb/fbb-bold-webfont.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 
