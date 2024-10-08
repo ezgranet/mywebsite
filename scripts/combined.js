@@ -1,0 +1,2 @@
+$("#select-all").click(function(c){this.checked?$(":checkbox").each(function(){this.checked=!0}):$(":checkbox").each(function(){this.checked=!1})});
+function positionSidenotes(){if(window.innerWidth<=768)return;let e=document.querySelectorAll(".footnote-label"),t=document.querySelectorAll(".sidenote");e.forEach((e,n)=>{let o=t[n],i=e.getBoundingClientRect(),l=document.querySelector(".content-wrapper").getBoundingClientRect();o.style.top=`${i.top-l.top}px`})}window.addEventListener("load",positionSidenotes),window.addEventListener("resize",positionSidenotes); 
