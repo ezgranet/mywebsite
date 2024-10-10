@@ -1,0 +1,407 @@
+div.sidenote  > a {    font-family: alegreya-sans, sans-serif !important; /* Change to your desired font family */
+}
+div.sidenote >  a > code  {font-family: 'source-code-pro', monospace !important; 
+font-feature-settings:'tnum', 'lnum'!important;
+  font-variant-numeric: tabular-nums lining-nums !important
+}
+
+
+div#main-content p,
+div#main-content blockquote  {
+    text-align: justify !important; /* Justifies text */
+    text-indent: 1em !important;
+}
+/* Remove extra space between consecutive paragraphs */
+/* Remove extra space between consecutive paragraphs */
+div#main-content p {
+    margin: 0 !important; /* Remove bottom margin */
+}
+
+/* Add space between paragraphs and blockquotes */
+div#main-content p + blockquote {
+    margin-top: 1em !important; /* Space above blockquotes */
+    margin-bottom: 1em !important;
+}
+
+strong.sidenote-number {
+    font-family: alegreya-sans, sans-serif !important; /* Change to your desired font family */
+}
+
+
+
+
+
+    p input {
+  display: none !important;
+}
+.sharing-button  {
+  margin: 2px !important;
+    }
+
+  .limited * {
+    font-size: 75% !important;
+    }
+@font-face {
+    font-family: QTCaslanOpen;
+    src: 
+      url(https://cdn.jsdelivr.net/gh/ezgranet/mywebsite/qtco/QTCaslanOpen.otf) format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fleuron
+{
+    margin-top: 30px;
+margin-bottom: 30px;
+}
+img.myimage {
+    width: 1em !important;
+  height: .25em !important;
+}
+
+
+/* Sup text */
+p input + label {
+  font: 0.7em / 1 cardo, serif;
+  font-feature-settings: "onum", "pnum";
+  vertical-align: super !important;
+  transition: color 0.1s !important;
+}
+    h3, .entry-title  {  text-align: center !important;
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+      font-size: 150% !important;
+}
+   
+ .post-header, post-header-container > container, post-header-line-1  {  text-align: center !important;
+      margin-top:30px !important;
+            margin-bottom:30px !important;
+
+        display: block !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width:  50% !important;
+
+}
+    
+p.pcenter {
+  text-align: center !important;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:  30%;
+}
+p.catchwords {
+    text-align: center !important;
+
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:  50%;
+  
+}
+
+
+.icenter
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Footnote text */
+.sans * {
+
+
+}
+p.copyright-center {
+
+   text-align: center;
+
+}
+    p+p.small {  font-family: alegreya-sans, sans-serif !important;
+    }
+
+p input + label + small {
+  transition: opacity 0.2s 0.05s;
+  position: absolute !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  font-family: alegreya-sans, sans-serif !important;
+
+}
+
+    small * {
+    font-family: alegreya-sans, sans-serif !important;
+}
+    p > small * {    font-family: alegreya-sans, sans-serif !important;
+}
+
+/******* Flavors *******/
+
+/* inline reveal */
+ input:checked + label + small {
+  margin: 0 0.15em;
+}
+
+
+
+
+p {
+  position: relative;
+}
+
+/**/
+input.chk-btn {
+  display: none;
+}
+input.chk-btn + label {
+  border: 1px solid grey;
+  background: ghoswhite;
+  padding: 5px 8px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+input.chk-btn:not(:checked) + label:hover {
+  box-shadow: 0px 1px 3px;
+}
+input.chk-btn + label:active,
+input.chk-btn:checked + label {
+  box-shadow: 0px 0px 3px inset;
+  background: #eee;
+}
+.cbutton {
+text-align: center;
+}
+.clink {
+    margin-top: 30px;
+margin-bottom: 30px;
+text-align: center;
+}
+
+    small * {
+a:link {
+  color: #355496 !important;
+}
+  color: #545449 !important;
+font-family: alegreya-sans, sans-serif !important;
+}
+.qtco  {font-family: QTCaslanOpen !important;
+font-size: x-large;
+letter-spacing: 2px !important;}
+    p *  {max-width:80% !important; }
+
+    body * {max-width: 100% !important;
+   }
+    span.byline.post-labels  {display: none !important;}
+ div.post-footer-line.post-footer-line-2   {display: none !important;}
+    #sharing-button-Blog1-byline-7749537797363895262 {width: 400px !important;}
+div.post-header-container.container  {display: none !important;}
+ 
+div.content-wrapper{display:flex;flex-direction:row;justify-content:space-between;position:relative}div.main-content{width:65%}div.sidenotes{width:30%;position:relative !important;right:0;top:0}div.sidenote{     left: 5% !important; position: absolute !important  z-index: 10 !important;  /* Ensure it appears above other content */
+        padding: 10px !important;  /* Add some padding for readability */
+/*    left: 100% !important;  /* Position the sidenote to the right of the main content */*/
+    top: 0 !important;  /* Initially set top to 0, JavaScript will adjust it dynamically */
+    margin-left: 5px !important;  /* Add a margin between the main content and sidenote */
+    font-size:.85em;
+color:#545449;text-indent:-1em;position:absolute !important;width:200px !important;font-family:alegreya-sans,sans-serif!important}.footnote-label{cursor:default;text-decoration:none}.footnote-content,input[type=checkbox]{display:none}input[type=checkbox]:checked+label+small .footnote-content{display:inline}@media (min-width:1001px){
+
+
+
+
+    .icenter {  margin-left: auto !important;
+margin-right: auto !important;
+}
+.catchwords, .fleuron {margin-top: 15px !important; margin-bottom: 15px !important;}.catchwords, .fleuron {margin-left: auto !important; margin-right: auto !important;}
+
+    .cbutton,.footnote-content{display:none!important}div.sidenote{display:block}}
+
+    @media (max-width: 1000px) {
+
+        p input + label {   cursor: pointer !important;}
+
+p input + label:before {
+  content: "[";
+}
+
+p input + label:after {
+  content: "]";
+}
+
+p input + label:hover {
+  color: #838374;
+}
+
+p input + label + small {
+  transition: opacity 0.2s 0.05s;
+  position: absolute !important;
+  opacity: 0 !important;
+  visibility: hidden !important;
+  font-family: alegreya-sans, sans-serif !important;
+
+}
+
+p input:checked + label + small {
+  position: relative !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  font-family: alegreya-sans, sans-serif !important;
+
+}/* Universal reset to eliminate margin/padding issues */
+* {
+    box-sizing: border-box;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Flexbox centering for the content wrapper */
+div.content-wrapper {
+    display: flex !important;
+    justify-content: center !important; /* Center horizontally */
+    align-items: center !important;     /* Center vertically (optional) */
+    flex-direction: column !important;  /* Stack content vertically */
+    width: 100vw !important;            /* Full viewport width */
+    min-height: 100vh !important;       /* Full viewport height */
+    margin: 0 auto !important;          /* Center the content horizontally */
+    padding: 0 15px !important;         /* Add some padding to prevent touching edges */
+    position: relative !important;      /* Ensure proper layout handling */
+}
+
+/* Forcing main-content and sidenotes to center */
+div.main-content, div.sidenotes {
+    width: 100% !important;            /* Full width of the container */
+    max-width: 900px !important;       /* Limit max width for readability */
+    margin-left: auto !important;
+    margin-right: auto !important;
+    position: relative !important;
+    text-align: center !important;     /* Optional: center-align text inside */
+}
+
+/* Force body and other elements to stay within bounds */
+body, html {
+    width: 100% !important;
+    overflow-x: hidden !important;    /* Prevent horizontal scrolling */
+}
+/* Media queries for mobile screens */
+@media (max-width: 1000px) {
+    div.main-content, div.sidenotes {
+        width: 100% !important;        /* Full width on smaller screens */
+        max-width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding: 0 10px !important;    /* Add padding on smaller screens */
+    }
+     .comment-block {
+        width: 100% !important;        /* Full width on smaller screens */
+        max-width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-bottom: 150px !important;
+        padding: 0 20px !important;    /* Add padding on smaller screens */
+        padding-bottom: 10% !important;
+    }
+#comments a {margin-right: 3em !important}
+.avatar-image-container {display: none  !important;}
+    /* Hide sidenotes */
+    divdiv.sidenotes, div.sidenote {
+        display: none !important;
+    }
+}
+
+/* Forcing styles on touch or coarse pointer devices */
+@media (pointer:none), (pointer:coarse) {
+    div.main-content, div.sidenotes {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding: 0 10px !important;
+    }
+
+    /* Hide sidenotes */
+    div.sidenote {
+        display: none !important;
+    }
+}}
+
+
+@media (pointer:none), (pointer:coarse) {
+
+/* Universal reset to eliminate margin/padding issues */
+* {
+    box-sizing: border-box;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Flexbox centering for the content wrapper */
+div.content-wrapper {
+    display: flex !important;
+    justify-content: center !important; /* Center horizontally */
+    align-items: center !important;     /* Center vertically (optional) */
+    flex-direction: column !important;  /* Stack content vertically */
+    width: 100vw !important;            /* Full viewport width */
+    min-height: 100vh !important;       /* Full viewport height */
+    margin: 0 auto !important;          /* Center the content horizontally */
+    padding: 0 15px !important;         /* Add some padding to prevent touching edges */
+    position: relative !important;      /* Ensure proper layout handling */
+}
+
+/* Forcing main-content and sidenotes to center */
+div.main-content, div.sidenotes {
+    width: 100% !important;            /* Full width of the container */
+    max-width: 900px !important;       /* Limit max width for readability */
+    margin-left: auto !important;
+    margin-right: auto !important;
+    position: relative !important;
+    text-align: center !important;     /* Optional: center-align text inside */
+}
+
+/* Force body and other elements to stay within bounds */
+body, html {
+    width: 100% !important;
+    overflow-x: hidden !important;    /* Prevent horizontal scrolling */
+}
+/* Media queries for mobile screens */
+@media (max-width: 1000px) {
+    div.main-content, div.sidenotes {
+        width: 100% !important;        /* Full width on smaller screens */
+        max-width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding: 0 10px !important;    /* Add padding on smaller screens */
+    }
+     .comment-block {
+        width: 100% !important;        /* Full width on smaller screens */
+        max-width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        margin-bottom: 150px !important;
+        padding: 0 20px !important;    /* Add padding on smaller screens */
+        padding-bottom: 10% !important;
+    }
+#comments a {margin-right: 3em !important}
+.avatar-image-container {display: none  !important;}
+    /* Hide sidenotes */
+    divdiv.sidenotes, div.sidenote {
+        display: none !important;
+    }
+}
+
+/* Forcing styles on touch or coarse pointer devices */
+@media (pointer:none), (pointer:coarse) {
+    div.main-content, div.sidenotes {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        padding: 0 10px !important;
+    }
+
+    /* Hide sidenotes */
+    div.sidenote {
+        display: none !important;
+    }
+}}
