@@ -1,0 +1,10 @@
+TEX = pandoc
+src = lsb-html-template.tex metadata.yaml
+FLAGS = --pdf-engine=lualatex
+
+lsb-intermediary-html.tex : $(src)
+	$(TEX) $(filter-out $<,$^ ) -o $@ --wrap=none --template=$< $(FLAGS)
+
+.PHONY: clean
+clean :
+	rm lsb-intermediary-html.tex

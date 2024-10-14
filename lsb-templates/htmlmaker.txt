@@ -1,0 +1,11 @@
+TEX = /opt/homebrew/bin/pandoc
+src =  lsb-intermediary-html.tex
+FLAGS = --pdf-engine=lualatex
+
+lsb-html-template.html : $(src)
+	$(TEX) lsb-intermediary-html.tex --wrap=none --standalone --lua-filter=legalstyle.lua --metadata-file metadata.yaml -o $@ --template=legalstyle.html; osascript -e 'display notification "HTML completed!"'
+
+
+.PHONY: clean
+clean :
+	rm lsb-html-template.html
