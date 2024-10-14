@@ -26,6 +26,8 @@ div#main-content p + blockquote {
     margin-bottom: 1em !important;
 }
 
+
+
 strong.sidenote-number {
     font-family: alegreya-sans, sans-serif !important; /* Change to your desired font family */
 }
