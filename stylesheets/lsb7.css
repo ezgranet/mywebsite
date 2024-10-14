@@ -251,7 +251,7 @@ color:#545449;text-indent:-1em;position:absolute !important;width:200px !importa
 
 
 
-div.fleuron > img.icenter {    display: block !important;
+div.fleuron, img.icenter {    display: block !important;
         margin-left: auto !important;
 margin-right: auto !important;
 }
