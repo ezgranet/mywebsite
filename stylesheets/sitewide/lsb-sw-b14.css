@@ -141,3 +141,11 @@ font-feature-settings:  normal !important;
 }
 span.post-author-label {font-variant-caps: normal !important; letter-spacing: normal !important;}
 time.published {font-style: normal !important; letter-spacing:2px !important }
+.post-header-container {margin-block: 0px !important
+}
+
+div.sharing {margin-right: 2em;}
+div.byline.jump-link {visibility: hidden !important;}
+div.post-footer {width: 75% !important;
+    margin-left: 27% ! Important;
+    color: #002366 !important;}
