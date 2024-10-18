@@ -6,7 +6,7 @@ margin-bottom:8px
   font-variant-caps: all-small-caps;
 font-weight: 400;  font-feature-settings: "c2sc", "smcp", "ss17";
    font-variant-numeric: inherit ;
-  font-feature-settings:   "onum", "pnum" !important;  font:$(feed.button.font)
+  font-feature-settings:   "onum", "pnum" !important;   
 }
 .flat-button.ripple .splash{
 font-family: 'etbb', serif !important; 
@@ -48,22 +48,20 @@ display:none
 font-family: 'etbb', italic !important; 
 .feed-message{
    font-variant-numeric: inherit ;
-  font-feature-settings:   "onum", "pnum" !important;  font:$(feed.subtitle.font);
+  font-feature-settings:   "onum", "pnum" !important;  
 margin-bottom:52px
 }
 
 .post-header-container .byline,.post-header-container 
  a{
    font-variant-numeric: inherit ;
-  font-feature-settings:   "onum", "pnum" !important;  font:$(feed.subtitle.font)
+  font-feature-settings:   "onum", "pnum" !important;  
 }
 .post-header-container .byline.post-author:not(:last-child)::after{
 content: "on" !important; 
 font-style: italic !important;
 }
-.post-header-container .byline.post-author:not(:last-child){
-margin-$endSide:0
-}
+
 .post-snippet-container{
 b {font-weight: bold;
  font-variant-numeric: proportional-nums oldstyle-nums !important;
@@ -88,7 +86,7 @@ word-break:normal
 font-variant-numeric: inherit ;
   font-feature-settings: "c2sc", "smcp",   "onum", "pnum" !important;
    font-variant-numeric: inherit ;
-  font-feature-settings:   "onum", "pnum" !important;  font:$(feed.text.font);
+  font-feature-settings:   "onum", "pnum" !important;   
 line-height:2;
 margin-bottom:24px
 }
@@ -97,7 +95,7 @@ margin-bottom:24px
 
 .blog-pager .blog-pager-older-link{
    font-variant-numeric: inherit ;
-  font-feature-settings:   "onum", "pnum" !important;  font:$(feed.button.font);
+  font-feature-settings:   "onum", "pnum" !important;   
 font-family: 'etbb', serif !important; 
   font-variant-numeric: inherit ;
    font-feature-settings: "c2sc", "smcp" !important;  
@@ -148,9 +146,7 @@ body.item-view .Blog .post-header-container .post-author-profile-pic-container{
 
 body.item-view .post-body{
    font-variant-numeric: inherit ;
-  font-feature-settings:   "onum", "pnum" !important;  font:$(body.text.font);
-line-height:2
-}
+  font-feature-settings:   "onum", "pnum" !important; 
 
 body.item-view .Blog .post-body-container .post-sidebar{
 display: none !important
@@ -169,15 +165,12 @@ display: none !important
 
 body.item-view .post-sidebar .post-labels-sidebar h3{
    font-variant-numeric: inherit ;
-  font-feature-settings:   "onum", "pnum" !important;  font:$(item.action.font);
-margin-bottom:16px
+  font-feature-settings:   "onum", "pnum" !important;  f
 }
 body.item-view .post-sidebar .post-labels-sidebar a{
-color: #002366;
    font-variant-numeric: inherit ;
 font-style: italic;
-  font-feature-settings:   "onum", "pnum" !important;  font:$(item.label.font);
-line-height:2
+  font-feature-settings:   "onum", "pnum" !important;
 }
 body.item-view blockquote{
 
@@ -189,10 +182,7 @@ font: 'etbb', serif;
 font-size:inherit;
 font-style:regular;
 }
-body.item-view .PopularPosts>.title{
-   font-variant-numeric: inherit ;
-  font-feature-settings:   "onum", "pnum" !important;  font:$(item.subtitle.font);
-}
+
 body.item-view blockquote::before{
 "‘"
 }
@@ -201,10 +191,6 @@ content:close-quote
 }
 
 
-.extendable .show-less,.extendable .show-more{
-   font-variant-numeric: inherit ;
-  font-feature-settings:   "onum", "pnum" !important;  font:$(sidebar.profile.link.font);
-}
 
 
 i {font-style: italic;}
