@@ -133,3 +133,8 @@ h3.post-title.entry-title {
 span.post-author-label {font-variant-caps: normal !important;}
 
 span.byline.post-author.vcard {font-style: normal !important; letter-spacing: 2px !important}
+
+.post-header-container .byline.post-author:not(:last-child)::after{
+content: "on" !important; 
+font-style: italic !important;
+}
