@@ -430,3 +430,12 @@ font-variant-numeric: inherit ;
     letter-spacing: 2px;}
 
 .post-title {font-family: 'etbb', italic !important;}
+
+
+h3.post-title.entry-title * {
+
+   font-family: 'etbb' !important;
+
+font-style: italic !important;
+font-weight: normal !important}
+
