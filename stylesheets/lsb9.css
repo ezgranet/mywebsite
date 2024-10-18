@@ -19,7 +19,7 @@ div#main-content blockquote p:first-of-type {
 line-height: .7em !important;
   font-family: "trajan-color"!important;
   color: black !important;
-  font-feature-settings: "ss20&quot" !important;
+  font-feature-settings: "ss20" !important;
   font-size: 4em !important;
   padding: 1px 0px;
       margin-top: 0.15em !important;
@@ -27,6 +27,7 @@ line-height: .7em !important;
   float: left !important;
   
 }
+
 
 
 
@@ -119,6 +120,8 @@ p input + label {
 }
     h3, .entry-title  {  text-align: center !important;
   display: block;
+  font-weight: normal !important;
+  font-style: italic !important;
   margin-left: auto !important;
   margin-right: auto !important;
       font-size: 150% !important;
