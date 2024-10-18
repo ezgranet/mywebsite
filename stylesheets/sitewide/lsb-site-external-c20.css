@@ -1,0 +1,450 @@
+.byline{
+display:inline-block;
+margin-bottom:8px
+}
+.byline,.byline a,.flat-button{
+  font-variant-caps: all-small-caps;
+font-weight: 400;  font-feature-settings: "c2sc", "smcp", "ss17";
+   font-variant-numeric: inherit ;
+  font-feature-settings:   "onum", "pnum" !important;   
+}
+.flat-button.ripple .splash{
+font-family: 'etbb', serif !important; 
+   font-variant-numeric: inherit ;
+  font-variant-caps: all-small-caps;
+font-weight: 400;  font-feature-settings: "c2sc", "smcp", "ss17";
+    letter-spacing: 2px
+}
+.flat-button.ripple:hover{
+font-family: 'etbb', serif !important; 
+   font-variant-numeric: inherit ;
+  font-variant-caps: all-small-caps;
+font-weight: 400;  font-feature-settings: "c2sc", "smcp", "ss17";
+    letter-spacing: 2px
+
+}
+.post-footer .byline{
+text-decoration:none;
+font-family: 'etbb', serif !important; 
+   font-variant-numeric: inherit ;
+  font-variant-caps: all-small-caps;
+font-weight: 400;  font-feature-settings: "c2sc", "smcp", "ss17" !important;
+    letter-spacing: 2px;}
+}
+.post-comment-link{
+font-family: 'etbb', serif !important; 
+  font-variant-caps: all-small-caps;
+font-weight: 400;
+  font-feature-settings: "c2sc", "smcp", "ss17";
+    letter-spacing: 2px;
+line-height:1;
+}
+
+body.feed-view .shown-ad:last-child{
+display:none
+}
+
+font-family: 'etbb', italic !important; 
+.feed-message{
+   font-variant-numeric: inherit ;
+  font-feature-settings:   "onum", "pnum" !important;  
+margin-bottom:52px
+}
+
+.post-header-container .byline,.post-header-container 
+ a{
+   font-variant-numeric: inherit ;
+  font-feature-settings:   "onum", "pnum" !important;  
+}
+.post-header-container .byline.post-author:not(:last-child)::after{
+content: "on" !important; 
+font-style: italic !important;
+}
+
+.post-snippet-container{
+b {font-weight: bold;
+ font-variant-numeric: proportional-nums oldstyle-nums !important;
+  font-feature-settings:   "onum", "pnum" !important;
+}
+i {font-style: italic;}
+
+}
+.sharing-button{
+font-family: 'etbb', serif !important; 
+   font-variant-numeric: inherit ;
+  font-variant-caps: all-small-caps;
+font-weight: 400;
+  font-feature-settings: "c2sc", "smcp", "ss17";
+    letter-spacing: 2px;
+text-decoration:none;
+text-transform:lowercase;
+word-break:normal
+}
+
+.post-body{
+font-variant-numeric: inherit ;
+  font-feature-settings: "c2sc", "smcp",   "onum", "pnum" !important;
+   font-variant-numeric: inherit ;
+  font-feature-settings:   "onum", "pnum" !important;   
+line-height:2;
+margin-bottom:24px
+}
+
+
+
+.blog-pager .blog-pager-older-link{
+   font-variant-numeric: inherit ;
+  font-feature-settings:   "onum", "pnum" !important;   
+font-family: 'etbb', serif !important; 
+  font-variant-numeric: inherit ;
+   font-feature-settings: "c2sc", "smcp" !important;  
+text-decoration:none;
+ .showpageOf{display:none!important}
+
+text-transform:lowercase;
+}
+.no-posts-message{
+margin:32px
+}
+body.item-view .Blog .post-title-container{
+  font-family: 'etbb', italic !important; 
+   font-variant-numeric: inherit ;
+margin-bottom:15px;
+padding-bottom:15x !important;;
+}
+body.item-view .Blog .post-title,body.item-view .Blog .post-title a{
+font-family: 'etbb', italic !important; 
+line-height:1.4166666667;
+margin-bottom:0
+}
+body.item-view .Blog{
+
+   font-variant-numeric: inherit ;
+
+}
+body.item-view .Blog .post-content{
+   font-variant-numeric: inherit ;
+ 
+}
+body.item-view .comments,body.item-view .shown-ad,body.item-view .widget.Blog .post-bottom{
+   font-variant-numeric: inherit ;
+ 
+}
+body.item-view .widget.Header header p{
+   font-variant-numeric: inherit ;
+}
+body.item-view .shown-ad{
+   font-variant-numeric: inherit ;
+margin-bottom:24px;
+margin-top:24px
+}
+body.item-view .Blog .post-header-container .post-author-profile-pic-container{
+   font-variant-numeric: inherit ;
+}
+
+
+body.item-view .post-body{
+   font-variant-numeric: inherit ;
+  font-feature-settings:   "onum", "pnum" !important; 
+
+body.item-view .Blog .post-body-container .post-sidebar{
+display: none !important
+
+}
+body.item-view .Blog .post-body-container .post-sidebar .sharing-button{
+display: none !important
+
+
+}
+.widget.Attribution{
+   font-variant-numeric: inherit ;
+  font-feature-settings:   "onum", "pnum" !important;  
+}
+
+
+body.item-view .post-sidebar .post-labels-sidebar h3{
+   font-variant-numeric: inherit ;
+  font-feature-settings:   "onum", "pnum" !important;  f
+}
+body.item-view .post-sidebar .post-labels-sidebar a{
+   font-variant-numeric: inherit ;
+font-style: italic;
+  font-feature-settings:   "onum", "pnum" !important;
+}
+body.item-view blockquote{
+
+ font-variant-numeric: proportional-nums oldstyle-nums !important;
+  font-feature-settings:   "onum", "pnum" !important;
+
+
+font: 'etbb', serif;
+font-size:inherit;
+font-style:regular;
+}
+
+body.item-view blockquote::before{
+"‘"
+}
+body.item-view blockquote::after{
+content:close-quote
+}
+
+
+
+
+i {font-style: italic;}
+.big-post-text-inner,.big-post-title-inner{
+  font-style: inherit !important;
+  
+  
+  font-family: inherit !important;
+
+  font-family: 'etbb', serif; 
+     font-variant-numeric: inherit ;
+  span.sc { /* OK, a bit contrived... */
+font-family: 'etbb', serif !important; 
+   font-variant-numeric: inherit ;
+   font-feature-settings: "c2sc", "smcp" !important;    
+  letter-spacing: 2px;}
+  b {
+      font-family: "'etbb'", serif;
+
+font-weight: bold;
+ font-variant-numeric: proportional-nums oldstyle-nums !important;
+  font-feature-settings:   "onum", "pnum" !important;
+}
+  i {font-style: italic;}
+
+  .big-post-text{
+  font-style: inherit !important;
+  
+  
+  font-family: inherit !important;
+
+  font-family: 'etbb', serif; 
+     font-variant-numeric: inherit ;
+  span.sc { /* OK, a bit contrived... */
+font-family: 'etbb', serif !important; 
+   font-variant-numeric: inherit ;
+   font-feature-settings: "c2sc", "smcp" !important;    
+  letter-spacing: 2px;}
+  b {font-family: 'etbb'; font-weight: bold; font-variant-numeric: proportional-nums oldstyle-nums !important;
+  font-feature-settings:   "onum", "pnum" !important;
+
+}
+  i {font-style: italic;}
+  
+
+.popular-posts-snippet.snippet-container,.post-snippet.snippet-container{
+span.sc { /* OK, a bit contrived... */
+font-family: 'etbb', serif !important; 
+   font-variant-numeric: inherit ;
+   font-feature-settings: "c2sc", "smcp" !important;    
+  letter-spacing: 2px;}
+font-size:14px;
+max-height:112px
+}
+.popular-posts-snippet .snippet-item,.post-snippet .snippet-item{
+span
+ 
+
+
+{font-variant:small-caps;}
+line-height:2
+}
+.popular-posts-snippet .snippet-fade,.post-snippet .snippet-fade{
+span.sc { /* OK, a bit contrived... */
+font-family: 'etbb', serif !important; 
+   font-variant-numeric: inherit ;
+   font-feature-settings: "c2sc", "smcp" !important;    
+  letter-spacing: 2px;}
+height:28px
+}
+
+
+body.item-view .post-body-container .separator[style*="text-align: center"] a[imageanchor="1"]{
+margin-left:-24px!important;
+margin-right:-24px!important
+{ /* OK, a bit contrived... */
+font-family: 'etbb', serif !important; 
+   font-variant-numeric: inherit ;
+   font-feature-settings: "c2sc", "smcp" !important;    
+  letter-spacing: 2px;}
+
+}
+
+h3 {
+  font-style: italic !important;
+font-weight: normal !important;
+text-size: large !important;
+}
+h4 { letter-spacing: 1.75px;
+font-weight: normal !important;
+text-align: center !important;
+  font-variant-caps: all-small-caps;
+font-weight: 400;
+  font-feature-settings: "c2sc", "smcp",   "onum", "pnum" !important;
+
+}
+
+
+p * {
+font-size=100% important!;
+    position: relative !important;
+vertical-align: baseline !important;
+font-family: 'etbb', serif !important; 
+font-variant-numeric: inherit ;
+  font-feature-settings: "c2sc", "smcp",   "onum", "pnum" !important;    text-align: justify !important;
+}
+
+p + p * {
+font-weight: 400;font-family: 'etbb', serif !important; 
+font-variant-numeric: inherit ;
+  font-feature-settings: "c2sc", "smcp",   "onum", "pnum" !important;
+    text-indent: 1em !important;
+    margin: 0 !important;
+
+}
+       .tt { /* OK, a bit contrived... */
+font-family: 'courier-std', monospace !important; 
+   }
+.hellenic {font-family: etbb, serif}  
+
+   
+.title {font-size: 1.5em;}
+
+q {
+  quotes: "\2018\2009" "\2009\2019" "“\2009" "\2009”";
+}
+q::before {
+    content: open-quote;
+}
+q::after {
+    content: close-quote;
+}
+  .smallcaps { /* OK, a bit contrived... */
+   font-variant-numeric: inherit ;
+  font-variant-caps: all-small-caps;
+   font-feature-settings: "c2sc", "smcp" !important;    
+  letter-spacing: 2px;}
+
+  .sc { /* OK, a bit contrived... */
+   font-variant-numeric: inherit ;
+  font-variant-caps: all-small-caps;
+   font-feature-settings: "c2sc", "smcp" !important;    
+  letter-spacing: 2px;}
+strong * {
+ font-variant-numeric: proportional-nums oldstyle-nums !important;
+  font-feature-settings:   "onum", "pnum" !important;
+
+}
+html * { font-family: 'etbb', serif;
+font-variant-ligatures: normal common-ligatures  discretionary-ligatures !important;
+
+strong * {
+ font-variant-numeric: proportional-nums oldstyle-nums !important;
+  font-feature-settings:   "onum", "pnum" !important;
+
+}
+
+p {
+b {
+    font-weight: bold !important;
+}
+
+blockquote
+{
+    b font-weight: bold !important;
+}
+    text-align: justify;
+    margin: 1em 0 0 0;
+font-family: 'etbb', serif;
+   font-variant-numeric: inherit ;
+  font-feature-settings:   "onum", "pnum" !important;
+font-variant-ligatures: normal common-ligatures  discretionary-ligatures !important;font-variant-ligatures: normal common-ligatures  discretionary-ligatures historical-ligatures contextual !important;
+}
+p + p {
+    margin: 0 !important;
+font-family: 'etbb', serif;
+   font-variant-numeric: inherit ;
+  font-feature-settings:   "onum", "pnum" !important;
+font-variant-ligatures: normal common-ligatures  discretionary-ligatures !important;font-variant-ligatures: common-ligatures  discretionary-ligatures historical-ligatures contextual !important;
+}
+
+
+}
+.post-body * { 
+font-family: 'etbb', serif; 
+   font-variant-numeric: inherit ;
+  font-feature-settings:  "onum", "pnum" !important;
+font-variant-ligatures: normal common-ligatures  discretionary-ligatures historical-ligatures contextual !important;
+}
+
+
+body {
+font-family: 'etbb', serif !important; 
+   font-variant-numeric: inherit ;
+  font-feature-settings:    "onum", "pnum", "hlig", "calt","dlig" !important;
+
+font-variant-ligatures: normal common-ligatures  discretionary-ligatures historical-ligatures contextual !important;}
+p {
+    text-align: justify;
+    margin: 1em 0 0 0;
+}
+p + p {
+    margin: 0 !important;
+}
+
+   span.sc3 * { /* OK, a bit contrived... */
+font-family: 'etbb', serif !important; 
+font-variant-numeric: inherit ;
+  font-feature-settings: "smcp",   "onum", "pnum" !important;
+  font-variant-caps: all-small-caps !important;
+  font-feature-settings:"smcp",   "onum", "pnum" !important;
+    letter-spacing: 2px;}
+      .sc2 { /* OK, a bit contrived... */
+font-family: 'etbb', serif !important; 
+font-variant-numeric: inherit ;
+  font-feature-settings: "c2sc", "smcp",   "onum", "pnum" !important;
+  font-variant-caps: all-small-caps !important;
+
+  font-feature-settings:"smcp",   "onum", "pnum" !important;
+    letter-spacing: 2px;}
+
+.post-title {font-family: 'etbb', italic !important;}
+
+
+h3.post-title.entry-title * {
+
+   font-family: 'etbb' !important;
+
+font-style: italic !important;
+font-weight: normal !important};}
+
+.post-title * {
+font-family: 'etbb' !important; 
+font-style: italic !important;
+font-weight: normal !important;
+
+}
+
+
+.post-title, .post-title a {
+font-family: 'etbb' !important; 
+font-style: italic !important;
+font-weight: normal !important;
+}
+div.post-title-container > h3.post-title.entry-title > a, 
+div.post-title-container > h3.post-title.entry-title > a  {
+    font-family: 'etbb' !important;
+    font-style: italic !important;
+    font-weight: normal !important;
+}
+
+span.post-author-label {font-variant-caps: normal !important;}
+
+
+
+h3.post-title.entry-title * {    font-family: 'etbb' !important;
+    font-style: italic !important;
+    font-weight: normal !important;} 
