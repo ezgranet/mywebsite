@@ -109,6 +109,10 @@ img.myimage {
     width: 1em !important;
   height: .25em !important;
 }
+img.myimage-other {
+    width: 1em !important;
+}
+
 
 
 /* Sup text */
