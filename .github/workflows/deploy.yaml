@@ -21,4 +21,4 @@ jobs:
           aws-region: us-east-1
 
       - name: Sync to S3
-        run: aws s3 sync ./my-assets s3://legalstyleblog --delete
+        run: aws s3 sync /Users/ezgranet/Documents/GitHub/mywebsite s3://legalstyleblog --delete
