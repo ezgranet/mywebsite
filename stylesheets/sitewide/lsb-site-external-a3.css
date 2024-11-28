@@ -13,6 +13,12 @@
 
 
 
+       .tt { /* OK, a bit contrived... */
+font-family: 'source-code-pro', monospace !important; 
+font-feature-settings: 'tnum', 'lnum' !important
+  
+   }
+
 
 @font-face {
     font-family: etbb;

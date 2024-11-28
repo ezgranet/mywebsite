@@ -7,5 +7,5 @@
       counter-increment: section; /* Increment counter for each <li> */
     }
     ol.custom-numbering li::before {
-content: "§ " counter(section) " " /* Correct character reference */
+content: "§ " counter(section) "   " /* Correct character reference */
     }
