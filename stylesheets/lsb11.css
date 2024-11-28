@@ -10,17 +10,21 @@ font-feature-settings:'tnum', 'lnum'!important;
 
 div#main-content blockquote p:first-of-type {
     text-indent: 0 !important;
+font-feature-settings: "onum", "pnum" !important;
+
 }
  div#main-content p:first-of-type, blockquote p:first-of-type {
     text-indent: 0 !important;
+     font-feature-settings: "onum", "pnum" !important;
+
 }
       
   div.first::first-letter {
 line-height: .7em !important;
-  font-family: "trajan-color"!important;
+  font-family: "trajan-color" !important;
   color: black !important;
   font-feature-settings: "ss20" !important;
-  font-size: 4em !important;
+  font-size: 4.5em !important;
   padding: 1px 0px;
       margin-top: 0.15em !important;
   margin-right: 6px;
@@ -48,9 +52,13 @@ div#main-content blockquote {
 }
 div#main-content blockquote p:first-of-type {
     text-indent: 0 !important;
+ font-feature-settings: "onum", "pnum" !important;
+
 }
  div#main-content p:first-of-type, div#main-content blockquote p:first-of-type,  div#main-content blockquote +   p  {
     text-indent: 0 !important;
+     font-feature-settings: "onum", "pnum" !important;
+
 }
 
 
@@ -461,3 +469,9 @@ body, html {
 
 
 
+
+div.main-content#main-content { font-feature-settings: "onum", "pnum" !important;
+}
+
+
+  body * {font-feature-settings: "onum", "pnum" !important;}

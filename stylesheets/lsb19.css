@@ -473,3 +473,5 @@ body, html {
 div.main-content#main-content { font-feature-settings: "onum", "pnum" !important;
 }
 
+
+  body * {font-feature-settings: "onum", "pnum" !important;}
