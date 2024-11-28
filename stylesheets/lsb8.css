@@ -28,6 +28,12 @@ line-height: .7em !important;
   
 }
 
+       .tt { /* OK, a bit contrived... */
+font-family: 'source-code-pro', monospace !important; 
+font-feature-settings: 'tnum', 'lnum' !important
+  
+   }
+
 
 
 
@@ -36,6 +42,7 @@ div.fleuron, img.icenter {    display: block !important;
 margin-right: auto !important;
 }
 div#main-content blockquote {
+    font-family: inherit !important;
     margin-left: 3em !important; /* Adds indentation to the left */
     padding-left: 1.5em !important; /* Optional: adds extra padding inside the blockquote */
 }
@@ -271,7 +278,7 @@ div.content-wrapper{display:flex;flex-direction:row;justify-content:space-betwee
     top: 0 !important;  /* Initially set top to 0, JavaScript will adjust it dynamically */
     margin-left: 5px !important;  /* Add a margin between the main content and sidenote */
     font-size:.85em;
-color:#545449;text-indent:-1em;position:absolute !important;width:200px !important;font-family:alegreya-sans,sans-serif!important}.footnote-label{cursor:default;text-decoration:none}.footnote-content,input[type=checkbox]{display:none}input[type=checkbox]:checked+label+small .footnote-content{display:inline}@media (min-width:1001px){
+color:#545449;text-indent:-1em;position:absolute !important;width:200px !important;font-family:alegreya-sans,sans-serif!important}.footnote-label{cursor:default;text-decoration:none}.footnote-content,input[type=checkbox]{display:none}input[type=checkbox]:checked+label+small .footnote-content{display:inline}@media (min-width:801px){
 
 
 
@@ -427,7 +434,7 @@ body, html {
     overflow-x: hidden !important;    /* Prevent horizontal scrolling */
 }
 /* Media queries for mobile screens */
-@media (max-width: 1000px) {
+@media (max-width: 800px) {
     div.main-content, div.sidenotes {
         width: 100% !important;        /* Full width on smaller screens */
         max-width: 100% !important;
@@ -452,18 +459,5 @@ body, html {
     }
 }
 
-/* Forcing styles on touch or coarse pointer devices */
-@media (pointer:none), (pointer:coarse) {
-    div.main-content, div.sidenotes {
-        width: 100% !important;
-        max-width: 100% !important;
-        margin-left: auto !important;
-        margin-right: auto !important;
-        padding: 0 10px !important;
-    }
 
-    /* Hide sidenotes */
-    div.sidenote {
-        display: none !important;
-    }
-}}
+

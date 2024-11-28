@@ -28,6 +28,12 @@ line-height: .7em !important;
   
 }
 
+       .tt { /* OK, a bit contrived... */
+font-family: 'source-code-pro', monospace !important; 
+font-feature-settings: 'tnum', 'lnum' !important
+  
+   }
+
 
 
 
@@ -36,6 +42,7 @@ div.fleuron, img.icenter {    display: block !important;
 margin-right: auto !important;
 }
 div#main-content blockquote {
+    font-family: inherit !important;
     margin-left: 3em !important; /* Adds indentation to the left */
     padding-left: 1.5em !important; /* Optional: adds extra padding inside the blockquote */
 }
