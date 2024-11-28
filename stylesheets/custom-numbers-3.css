@@ -1,0 +1,47 @@
+ /* Style for the first level list */
+  .list-level-1 {
+    counter-reset: list-item; /* Initialize counter */
+  }
+  .list-level-1 > li {
+    list-style: none; /* Remove default styling */
+    counter-increment: list-item; /* Increment counter */
+  }
+  .list-level-1 > li::before {
+    content: "(" counter(list-item) ") "; /* Use numerals in parentheses */
+  }
+
+  /* Style for the second level list */
+  .list-level-2 {
+    counter-reset: list-item; /* Reset counter */
+  }
+  .list-level-2 > li {
+    list-style: none; /* Remove default styling */
+    counter-increment: list-item; /* Increment counter */
+  }
+  .list-level-2 > li::before {
+    content: "(" counter(list-item, lower-alpha) ") "; /* Use (a), (b), (c)... */
+  }
+
+  /* Style for the third level list */
+  .list-level-3 {
+    counter-reset: list-item; /* Reset counter */
+  }
+  .list-level-3 > li {
+    list-style: none; /* Remove default styling */
+    counter-increment: list-item; /* Increment counter */
+  }
+  .list-level-3 > li::before {
+    content: "(" counter(list-item, upper-alpha) ") "; /* Use (A), (B), (C)... */
+  }
+
+  /* Style for the fourth level list */
+  .list-level-4 {
+    counter-reset: list-item; /* Reset counter */
+  }
+  .list-level-4 > li {
+    list-style: none; /* Remove default styling */
+    counter-increment: list-item; /* Increment counter */
+  }
+  .list-level-4 > li::before {
+    content: "(" counter(list-item, lower-roman) ") "; /* Use (i), (ii), (iii)... */
+  }
