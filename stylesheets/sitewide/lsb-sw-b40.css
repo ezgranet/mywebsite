@@ -39,8 +39,8 @@ font-feature-settings: 'tnum', 'lnum' !important
   }
 
   body {
-    border-left: 50px solid red !important;
-    border-right: 50px solid red !important;
+    border-left: 50px  !important;
+    border-right: 50px  !important;
   }
 
   h2, h3 {
