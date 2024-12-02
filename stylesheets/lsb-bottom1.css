@@ -1,0 +1,51 @@
+/* Ensure the span.byline.post-icons is hidden */
+body span.byline.post-icons {
+    display: none !important;
+}
+
+/* Apply margin to div.K2_Pre_Next with increased specificity */
+body div.K2_Pre_Next {
+    margin-bottom: 100px !important;
+    padding-bottom: 100px !important; /* If needed, to create additional space */
+}
+
+/* Increase specificity for the margin on #comments > h3.title */
+#comments h3.title {
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+}
+
+/* Apply font-feature-settings to the body to ensure it's applied to all text */
+body {
+    font-feature-settings: "onum", "pnum" !important;
+}
+
+/* Additional margin if K2_Pre_Next is positioned absolutely */
+body div.K2_Pre_Next {
+    position: relative; /* Ensure it's within normal flow if needed */
+}
+
+/* If h3.title still has margin issues, make sure it has a block display and proper margins */
+#comments > h3.title {
+    display: block !important;
+    margin-top: 100px !important;
+    margin-bottom: 100px !important;
+}
+
+/* Apply more specific styling to span.byline if needed */
+body span.byline.post-icons {
+    display: none !important;
+}
+
+/* Example of additional specificity for font-feature-settings to ensure it's applied */
+body * {
+    font-feature-settings: "onum", "pnum" !important;
+}
+
+/* Apply more targeted margin adjustments */
+div.K2_Pre_Next {
+    margin-bottom: 100px !important; /* Ensure the space after K2_Pre_Next is consistent */
+    padding-bottom: 100px !important; /* Additional padding if needed */
+}
+
+
