@@ -1,3 +1,6 @@
+code {font-size: .8em !important;}
+
+
 div.sidenote  > a {    font-family: alegreya-sans, sans-serif !important; /* Change to your desired font family */
 }
 div.sidenote >  a > code  {font-family: 'source-code-pro', monospace !important; 
