@@ -1,6 +1,6 @@
 /* General Styling */
 body {
-  font-family: etbb, serif !important;
+  font-family: cardo, serif !important;
 }
 
 .post-title.entry-title {
@@ -62,7 +62,7 @@ p.first::first-letter {
 
 /* Typography Settings */
  .byline, .byline a, .flat-button {
-  font-family: etbb, serif !important;
+  font-family: cardo, serif !important;
   font-variant-numeric: oldstyle-nums proportional-nums !important;
   font-feature-settings: "onum", "pnum" !important;
 }
@@ -104,7 +104,7 @@ p.first::first-letter {
 
 /* Blockquote Styling */
 blockquote {
-  font-family: etbb, serif;
+  font-family: cardo, serif;
   font-variant-numeric: proportional-nums oldstyle-nums !important;
   font-feature-settings: "onum", "pnum" !important;
 }
